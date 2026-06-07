@@ -1,0 +1,60 @@
+.editor-letter {
+  background-color: var(--bg-color);
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+.editor-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.editor-header h2 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.5rem;
+}
+
+.divider {
+  width: 50px;
+  height: 2px;
+  background-color: var(--accent-color);
+  margin: 0 auto;
+}
+
+.editor-content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #cccccc;
+}
+
+.drop-cap::first-letter {
+  float: left;
+  font-size: 4.5rem;
+  line-height: 0.8;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: var(--font-heading);
+  color: var(--accent-color);
+}
+
+.signature {
+  margin-top: 4rem;
+  text-align: right;
+  border-top: 1px solid #333;
+  padding-top: 2rem;
+}
+
+.signature p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.signature h4 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
